@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 ``` Python
 img = np.zeros((100,400),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img ,'DEVA',(60,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img ,'JEGADEESH',(60,70),font,1,(255),5,cv2.LINE_AA)
 plt.imshow(img)
 plt.axis('off')
 ```
